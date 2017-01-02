@@ -1,0 +1,111 @@
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    font-family: tahoma !important;
+    font-size: 13px !important;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.priceBlock{
+    padding: 20px;
+    text-align: center;
+    color: #FFF;
+    height: 120px;
+    line-height: 30px;
+}
+
+#gray{
+    background-color: #90a4ae;
+}
+#gray1{
+    background-color: #78909c;
+}
+#gray2{
+    background-color: #29b6f6;
+}
+.bs-example  span{
+    display: inline-block;
+    padding-bottom: 5px;
+}
+.bs-example {
+    position: relative;
+    padding: 15px;
+    color: #0fc2ab;
+    margin: 0px;
+    border-color: #e5e5e5 #eee #eee;
+    border-style: solid;
+    border-width: 1px 0;
+    -webkit-box-shadow: inset 0 3px 6px rgba(0,0,0,.05);
+    box-shadow: inset 0 3px 6px rgba(0,0,0,.05);
+}
+/*** we alter*/
+.table{
+    margin-top: -35px;
+    border-collapse: collapse;
+}
+.table thead{
+    visibility: hidden;
+}
+.center{
+    text-align: center !important;
+    padding-left: 10px;
+}
+.tdTit {
+    font-weight: bold !important;
+    color: #29b6f6;
+    vertical-align: middle !important;
+}
+.fa-check{
+    color: #02bfa6;
+}
+.fa-remove{
+    color: #f92953;
+}
+.btn-info {
+    color: #ffffff;
+    background-color: #21a9e1;
+    border-color: #21a9e1;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 12px;
+    line-height: 1.42857143;
+    border-radius: 3px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+#icnCheck{
+    vertical-align: middle;
+    text-align: center;
+    line-height: 60px
+}
